@@ -95,6 +95,22 @@ Run inference to generate interpretable and consistent emotional reasoning.
 ```bash
 bash eval_shard.sh
 ```
+---
+
+## 📚 Datasets
+
+The datasets used in this project can be accessed from the following public sources.
+
+| Dataset | Download Link |
+| :------ | :------------ |
+| **MAFW** | [https://mafw-database.github.io/MAFW/](https://mafw-database.github.io/MAFW/) |
+| **DFEW** | [https://dfew-dataset.github.io/download.html](https://dfew-dataset.github.io/download.html) |
+| **MERR** | [https://github.com/zebangcheng/emotion-llama](https://github.com/zebangcheng/emotion-llama) |
+| **EMER** | [https://huggingface.co/datasets/MERChallenge/MER2024/tree/main](https://huggingface.co/datasets/MERChallenge/MER2024/tree/main) |
+
+For the **EMER** dataset, please refer to `final-EMER-reason.csv` in the linked repository.
+
+---
 
 ## Acknowledgement
 This repository is built upon [R1-Omni](https://github.com/HumanMLLM/R1-Omni), [R1-V](https://github.com/StarsfieldAI/R1-V), and [HumanOmni](https://github.com/HumanMLLM/HumanOmni). 
